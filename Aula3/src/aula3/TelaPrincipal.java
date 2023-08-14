@@ -87,7 +87,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
     private void txtBotaoGravarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtBotaoGravarActionPerformed
         String x = txtMensagem.getText();
         //int idade = Integer.parseInt(x);
-        //System.out.println(idade);
+        System.out.println("Teste");
         JOptionPane.showMessageDialog(null, x);
         txtMensagem.setText("");
         txtMensagem.grabFocus();
